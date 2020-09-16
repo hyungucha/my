@@ -103,11 +103,11 @@ namespace DAQ
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
-			//ChannelSetting("a", "a");
-			//ParamSetting(tbch1_Frequency.Text, tbch1_Amplitude.Text, tbch1_Pulse_w.Text);
+            //ChannelSetting("a", "a");
+            ParamSetting(tbch1_Frequency.Text, tbch1_Amplitude.Text, tbch1_Pulse_w.Text, "");
 
 
-		}
+        }
 
         private void btnReset_Click(object sender, RoutedEventArgs e)
         {
