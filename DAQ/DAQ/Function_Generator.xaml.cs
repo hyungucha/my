@@ -105,7 +105,7 @@ namespace DAQ
         {
             //ChannelSetting("a", "a");
             ParamSetting(tbch1_Frequency.Text, tbch1_Amplitude.Text, tbch1_Pulse_w.Text, "");
-			//ParamSetting(tbch1_Frequency.Text, tbch1_Amplitude.Text, tbch1_Pulse_w.Text, "");
+			ParamSetting(tbch1_Frequency.Text, tbch1_Amplitude.Text, tbch1_Pulse_w.Text, "1");
 		}
 
         private void btnReset_Click(object sender, RoutedEventArgs e)
