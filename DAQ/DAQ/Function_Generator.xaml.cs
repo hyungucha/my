@@ -104,7 +104,6 @@ namespace DAQ
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
 			int a = 10;
-			int b = 20;
 			//ChannelSetting("a", "a");
             ParamSetting(tbch1_Frequency.Text, tbch1_Amplitude.Text, tbch1_Pulse_w.Text, "");
 		      	ParamSetting(tbch1_Frequency.Text, tbch1_Amplitude.Text, tbch1_Pulse_w.Text, "1");
