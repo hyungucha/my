@@ -107,6 +107,7 @@ namespace DAQ
 			int b = 12;
 			int c = 13;
 			int d = 14;
+			int dadsf = 24;
 			
 			//ChannelSetting("a", "a");
             //ParamSetting(tbch1_Frequency.Text, tbch1_Amplitude.Text, tbch1_Pulse_w.Text, "");
