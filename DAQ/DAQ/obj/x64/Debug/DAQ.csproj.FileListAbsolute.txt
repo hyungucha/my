@@ -1,0 +1,284 @@
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.exe.config
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\AcqVoltageInt.g.cs
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\MainWindow.g.cs
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\Menu.g.cs
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\App.g.cs
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ_MarkupCompile.cache
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ_MarkupCompile.lref
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\DAQ.exe.config
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\DAQ.exe
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\DAQ.pdb
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\NationalInstruments.Common.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\NationalInstruments.DAQmx.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\NationalInstruments.NiLmClientDLL.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Charting.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Charting3D.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Core.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Data.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Drawing.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\AcqVoltageInt.baml
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\MainWindow.baml
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\Menu.baml
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.g.resources
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.Properties.Resources.resources
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.GenerateResource.cache
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.CoreCompileInputs.cache
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.CopyComplete
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.exe
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.pdb
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChartWrapper.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\Base.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.csprojAssemblyReference.cache
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\LiveCharts.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\LiveCharts.Wpf.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\Microsoft.Xaml.Behaviors.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.Blob.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.Extensions.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Drawing.DirectX.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Examples.ExternalDependencies.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.D3DCompiler.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D11.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D11.Effects.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D9.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.DXGI.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.Mathematics.dll
+D:\humen\새 폴더\DAQC#\DAQ\DAQ\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\DAQ.exe.config
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\DAQ.exe
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\DAQ.pdb
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\Base.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\LiveCharts.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\LiveCharts.Wpf.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\Microsoft.Xaml.Behaviors.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\NationalInstruments.Common.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\NationalInstruments.DAQmx.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\NationalInstruments.NiLmClientDLL.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.Blob.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.Extensions.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SciChart.Charting.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SciChart.Charting3D.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SciChart.Core.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SciChart.Data.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SciChart.Drawing.DirectX.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SciChart.Drawing.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SciChart.Examples.ExternalDependencies.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SciChartWrapper.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SharpDX.D3DCompiler.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D11.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D11.Effects.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D9.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SharpDX.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SharpDX.DXGI.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\SharpDX.Mathematics.dll
+D:\humen\새 폴더\DAQ\DAQ\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\DAQ.exe.config
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\AcqVoltageInt.g.cs
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\Function_Generator.g.cs
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\GenVoltageUpdate.g.cs
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\MainWindow.g.cs
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\Menu.g.cs
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\ContGenVoltageWfm_Int.g.cs
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\GenDigPulseTrain_Continuous.g.cs
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\App.g.cs
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\DAQ_MarkupCompile.cache
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\DAQ_MarkupCompile.lref
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\AcqVoltageInt.baml
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\Function_Generator.baml
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\GenVoltageUpdate.baml
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\MainWindow.baml
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\Menu.baml
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\ContGenVoltageWfm_Int.baml
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\GenDigPulseTrain_Continuous.baml
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\DAQ.g.resources
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\DAQ.Properties.Resources.resources
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.GenerateResource.cache
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.CoreCompileInputs.cache
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.CopyComplete
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\DAQ.exe
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\DAQ.pdb
+D:\humen\새 폴더\DAQ\DAQ\obj\x64\Debug\DAQ.csprojAssemblyReference.cache
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\DAQ.exe.config
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\DAQ.exe
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\DAQ.pdb
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\Base.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\LiveCharts.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\LiveCharts.Wpf.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\Microsoft.Xaml.Behaviors.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\NationalInstruments.Common.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\NationalInstruments.DAQmx.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\NationalInstruments.NiLmClientDLL.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.Blob.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.Extensions.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Charting.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Charting3D.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Core.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Data.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Drawing.DirectX.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Drawing.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Examples.ExternalDependencies.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SciChartWrapper.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.D3DCompiler.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D11.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D11.Effects.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D9.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.DXGI.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.Mathematics.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\DAQ.exe.config
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\AcqVoltageInt.g.cs
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\Function_Generator.g.cs
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\GenVoltageUpdate.g.cs
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\MainWindow.g.cs
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\Menu.g.cs
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\ContGenVoltageWfm_Int.g.cs
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\GenDigPulseTrain_Continuous.g.cs
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\App.g.cs
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\DAQ_MarkupCompile.cache
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\DAQ_MarkupCompile.lref
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\AcqVoltageInt.baml
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\Function_Generator.baml
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\GenVoltageUpdate.baml
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\MainWindow.baml
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\Menu.baml
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\ContGenVoltageWfm_Int.baml
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\GenDigPulseTrain_Continuous.baml
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\DAQ.g.resources
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\DAQ.Properties.Resources.resources
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.GenerateResource.cache
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.CoreCompileInputs.cache
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.CopyComplete
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\DAQ.exe
+D:\humen\hg\DAQ\hg\DAQ\DAQ\obj\x64\Debug\DAQ.pdb
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\DAQ.exe.config
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\DAQ.exe
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\DAQ.pdb
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\Base.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\LiveCharts.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\LiveCharts.Wpf.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\Microsoft.Xaml.Behaviors.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\NationalInstruments.Common.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\NationalInstruments.DAQmx.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\NationalInstruments.NiLmClientDLL.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.Blob.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.Extensions.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Charting.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Charting3D.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Core.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Data.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Drawing.DirectX.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Drawing.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChart.Examples.ExternalDependencies.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SciChartWrapper.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.D3DCompiler.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D11.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D11.Effects.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D9.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.DXGI.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\SharpDX.Mathematics.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\System.Windows.Interactivity.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\System.Windows.Interactivity.xml
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\de\System.Windows.Interactivity.resources.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\en\System.Windows.Interactivity.resources.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\es\System.Windows.Interactivity.resources.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\it\System.Windows.Interactivity.resources.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\DAQC#\DAQ\DAQ\bin\x64\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.csprojAssemblyReference.cache
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.exe.config
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\AcqVoltageInt.g.cs
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\Function_Generator.g.cs
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\GenVoltageUpdate.g.cs
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\MainWindow.g.cs
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\Menu.g.cs
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\ContGenVoltageWfm_Int.g.cs
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\GenDigPulseTrain_Continuous.g.cs
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\App.g.cs
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ_MarkupCompile.cache
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ_MarkupCompile.lref
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\AcqVoltageInt.baml
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\Function_Generator.baml
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\GenVoltageUpdate.baml
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\MainWindow.baml
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\Menu.baml
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\ContGenVoltageWfm_Int.baml
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\GenDigPulseTrain_Continuous.baml
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.g.resources
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.Properties.Resources.resources
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.GenerateResource.cache
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.CopyComplete
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.exe
+D:\DAQC#\DAQ\DAQ\obj\x64\Debug\DAQ.pdb
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\DAQ.exe.config
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\DAQ.exe
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\DAQ.pdb
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\Base.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\LiveCharts.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\LiveCharts.Wpf.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\Microsoft.Xaml.Behaviors.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\NationalInstruments.Common.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\NationalInstruments.DAQmx.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\NationalInstruments.NiLmClientDLL.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\NI_DAQ.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.Blob.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\OpenCvSharp.Extensions.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Charting.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Charting3D.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Core.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Data.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Drawing.DirectX.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Drawing.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SciChart.Examples.ExternalDependencies.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SciChartWrapper.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.D3DCompiler.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D11.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D11.Effects.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.Direct3D9.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.DXGI.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\SharpDX.Mathematics.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\BaseDAQ.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\NI_FG.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\BaseFunctionGenerator.dll
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\NI_DAQ.pdb
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\BaseDAQ.pdb
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\NI_FG.pdb
+D:\humen\hg\DAQ\DAQ\bin\x64\Debug\BaseFunctionGenerator.pdb
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\DAQ.csprojAssemblyReference.cache
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\DAQ.exe.config
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\AcqVoltageInt.g.cs
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\Function_Generator.g.cs
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\GenVoltageUpdate.g.cs
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\Menu.g.cs
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\ContGenVoltageWfm_Int.g.cs
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\GenDigPulseTrain_Continuous.g.cs
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\Page3.g.cs
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\App.g.cs
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\DAQ_MarkupCompile.cache
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\DAQ_MarkupCompile.lref
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\AcqVoltageInt.baml
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\Function_Generator.baml
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\GenVoltageUpdate.baml
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\Menu.baml
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\ContGenVoltageWfm_Int.baml
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\GenDigPulseTrain_Continuous.baml
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\Page3.baml
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\DAQ.g.resources
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\DAQ.Properties.Resources.resources
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.GenerateResource.cache
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.CoreCompileInputs.cache
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\DAQ.csproj.CopyComplete
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\DAQ.exe
+D:\humen\hg\DAQ\DAQ\obj\x64\Debug\DAQ.pdb

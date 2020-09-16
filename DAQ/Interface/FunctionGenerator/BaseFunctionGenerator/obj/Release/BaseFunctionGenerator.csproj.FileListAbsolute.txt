@@ -1,0 +1,11 @@
+D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\bin\Release\BaseFunctionGenerator.dll
+D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\bin\Release\BaseFunctionGenerator.pdb
+D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\bin\Release\Ivi.Visa.dll
+D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\bin\Release\Ivi.Visa.xml
+D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\Release\BaseFunctionGenerator.csprojAssemblyReference.cache
+D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\Release\BaseFunctionGenerator.Properties.Resources.resources
+D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\Release\BaseFunctionGenerator.csproj.GenerateResource.cache
+D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\Release\BaseFunctionGenerator.csproj.CoreCompileInputs.cache
+D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\Release\BaseFunctionGenerator.csproj.CopyComplete
+D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\Release\BaseFunctionGenerator.dll
+D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\Release\BaseFunctionGenerator.pdb

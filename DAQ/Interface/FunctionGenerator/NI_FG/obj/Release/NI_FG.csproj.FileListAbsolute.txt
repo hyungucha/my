@@ -1,0 +1,11 @@
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\bin\Release\NI_FG.dll
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\bin\Release\NI_FG.pdb
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\bin\Release\BaseFunctionGenerator.dll
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\bin\Release\BaseFunctionGenerator.pdb
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\Release\NI_FG.csprojAssemblyReference.cache
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\Release\NI_FG.Properties.Resources.resources
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\Release\NI_FG.csproj.GenerateResource.cache
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\Release\NI_FG.csproj.CoreCompileInputs.cache
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\Release\NI_FG.csproj.CopyComplete
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\Release\NI_FG.dll
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\Release\NI_FG.pdb

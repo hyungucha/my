@@ -1,0 +1,8 @@
+D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\Debug\NI_DAQ.csprojAssemblyReference.cache
+D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\Debug\NI_DAQ.Properties.Resources.resources
+D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\Debug\NI_DAQ.csproj.GenerateResource.cache
+D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\Debug\NI_DAQ.csproj.CoreCompileInputs.cache
+D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\Debug\UserControl1.g.cs
+D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\Debug\Window1.g.cs
+D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\Debug\NI_DAQ_MarkupCompile.cache
+D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\Debug\NI_DAQ_MarkupCompile.lref

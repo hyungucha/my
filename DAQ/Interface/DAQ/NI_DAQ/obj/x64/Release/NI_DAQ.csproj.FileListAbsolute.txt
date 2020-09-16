@@ -1,0 +1,5 @@
+D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\x64\Release\NI_DAQ.csprojAssemblyReference.cache
+D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\x64\Release\Camera.g.cs
+D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\x64\Release\MainWindow.g.cs
+D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\x64\Release\NI_DAQ_MarkupCompile.cache
+D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\x64\Release\NI_DAQ_MarkupCompile.lref

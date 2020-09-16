@@ -1,0 +1,4 @@
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\x64\Release\NI_FG.csprojAssemblyReference.cache
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\x64\Release\NI_FG.Properties.Resources.resources
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\x64\Release\NI_FG.csproj.GenerateResource.cache
+D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\x64\Release\NI_FG.csproj.CoreCompileInputs.cache
