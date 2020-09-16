@@ -105,10 +105,11 @@ namespace DAQ
         {
 			int a = 11;
 			int b = 12;
+			int c = 13;
 			
 			//ChannelSetting("a", "a");
-            ParamSetting(tbch1_Frequency.Text, tbch1_Amplitude.Text, tbch1_Pulse_w.Text, "");
-		      	ParamSetting(tbch1_Frequency.Text, tbch1_Amplitude.Text, tbch1_Pulse_w.Text, "1");
+            //ParamSetting(tbch1_Frequency.Text, tbch1_Amplitude.Text, tbch1_Pulse_w.Text, "");
+		      	//ParamSetting(tbch1_Frequency.Text, tbch1_Amplitude.Text, tbch1_Pulse_w.Text, "1");
 
 			
 	    	}
