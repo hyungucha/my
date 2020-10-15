@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\DAQC#\DAQ\DAQ\App.xaml
-3877569361
+7-1807117474
 
-8-1351961887
-17-890002076
-AcqVoltageInt.xaml;MainWindow.xaml;Menu.xaml;
+13-966747388
+4174089546
+AcqVoltageInt.xaml;Function_Generator.xaml;GenVoltageUpdate.xaml;Menu.xaml;ContGenVoltageWfm_Int.xaml;GenDigPulseTrain_Continuous.xaml;Page3.xaml;
 
 True
 

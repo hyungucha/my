@@ -5,3 +5,17 @@ D:\humen\hg\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.csproj.GenerateResou
 D:\humen\hg\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.csproj.CoreCompileInputs.cache
 D:\humen\hg\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.dll
 D:\humen\hg\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.pdb
+D:\humen\hg\NewDAQ\DAQ\Interface\DAQ\BaseDAQ\bin\x64\Debug\BaseDAQ.dll
+D:\humen\hg\NewDAQ\DAQ\Interface\DAQ\BaseDAQ\bin\x64\Debug\BaseDAQ.pdb
+D:\humen\hg\NewDAQ\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.csprojAssemblyReference.cache
+D:\humen\hg\NewDAQ\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.Properties.Resources.resources
+D:\humen\hg\NewDAQ\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.csproj.GenerateResource.cache
+D:\humen\hg\NewDAQ\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.csproj.CoreCompileInputs.cache
+D:\humen\hg\NewDAQ\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.dll
+D:\humen\hg\NewDAQ\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.pdb
+D:\DAQC#\DAQ\Interface\DAQ\BaseDAQ\bin\x64\Debug\BaseDAQ.dll
+D:\DAQC#\DAQ\Interface\DAQ\BaseDAQ\bin\x64\Debug\BaseDAQ.pdb
+D:\DAQC#\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.Properties.Resources.resources
+D:\DAQC#\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.csproj.GenerateResource.cache
+D:\DAQC#\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.dll
+D:\DAQC#\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Debug\BaseDAQ.pdb

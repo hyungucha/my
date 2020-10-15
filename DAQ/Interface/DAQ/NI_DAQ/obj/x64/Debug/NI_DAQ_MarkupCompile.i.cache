@@ -4,17 +4,17 @@
 library
 C#
 .cs
-D:\humen\hg\DAQ\Interface\DAQ\NI_DAQ\obj\x64\Debug\
+D:\humen\hg\NewDAQ\DAQ\Interface\DAQ\NI_DAQ\obj\x64\Debug\
 NI_DAQ
 none
 false
 
 
-21877823172
+3-1969301872
 
-8-1497779439
-351633056764
-Camera.xaml;MainWindow.xaml;
+9158483333
+35961353674
+Camera.xaml;ContAcqDigStartRetrig.xaml;MainWindow.xaml;
 
 True
 
