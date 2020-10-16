@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\humen\hg\DAQ\DAQ\obj\x64\Debug\
+D:\humen\hg\NewDAQ\DAQ\DAQ\obj\x64\Debug\
 DAQ
 none
 false
 DEBUG;TRACE
-D:\humen\hg\DAQ\DAQ\App.xaml
+D:\humen\hg\NewDAQ\DAQ\DAQ\App.xaml
 7-1807117474
 
-12-644891037
-41-370275348
+13-1457887402
+41-728295652
 AcqVoltageInt.xaml;Function_Generator.xaml;GenVoltageUpdate.xaml;Menu.xaml;ContGenVoltageWfm_Int.xaml;GenDigPulseTrain_Continuous.xaml;Page3.xaml;
 
-False
+True
 

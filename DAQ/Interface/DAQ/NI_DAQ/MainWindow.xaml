@@ -40,9 +40,9 @@
                 <Label Content="Smp/cnl :" Grid.Row="3" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="146" FontSize="16"/>
                 <Label Content="Rate :" Grid.Row="4" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="146" FontSize="16"/>
                 <ComboBox Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" Margin="15"
-                          Height="40" VerticalAlignment="top" Width="150"
-                          ItemsSource="{Binding Path=AcqVoltageInt__PhysicalChannels}" 
-                          SelectedItem="{Binding Path=AcqVoltageInt__SelectedPhysicalChannel}"/>
+                          Height="40" VerticalAlignment="top" Width="150" 
+                          ItemsSource="{Binding Path=AcqVoltageInt_PhysicalChannels}" 
+                          SelectedItem="{Binding Path=AcqVoltageInt_SelectedPhysicalChannel}"/>
 
                 <TextBox x:Name="edMinvalue" Grid.Column="1" HorizontalAlignment="Center" Height="40" Grid.Row="1" 
                          TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Text="{Binding Path=AcqVoltageInt_RangeMinimum, Mode=TwoWay}" />
@@ -317,9 +317,12 @@
                     </Grid>
                 </GroupBox>
                 <Button x:Name="btnFunctionGeneratorStart" Grid.ColumnSpan="2" Content="Start" Grid.Column="2" HorizontalAlignment="Left" Height="40" 
-                        Grid.Row="4" Grid.RowSpan="2" VerticalAlignment="Top" Width="136" Margin="145,70,0,0"/>
+                        Grid.Row="4" VerticalAlignment="Top" Width="136" Margin="145,28,0,0"/>
                 <Button x:Name="btnFunctionGeneratorReset" Content="Reset" Grid.Column="3" HorizontalAlignment="Center" Height="40" 
-                        Grid.Row="5" VerticalAlignment="Top" Width="135" Margin="60,-10,0,0" Click="btnFunctionGeneratorReset_Click"/>
+                        Grid.Row="4" VerticalAlignment="Top" Width="134" Margin="77,28,17,0" Click="btnFunctionGeneratorReset_Click"/>
+
+                <Button x:Name="btnContAcqDigStartRetrig" Content="AcqRetrig" Grid.Column="3" HorizontalAlignment="Center" Height="40" 
+                        Grid.Row="5" VerticalAlignment="Top" Width="134" Margin="60,20,0,0" Click="btnContAcqDigStartRetrig_Click"/>
 
             </Grid>
         </GroupBox>

@@ -113,6 +113,7 @@ namespace DAQ
 
                     //dataTable.Rows[sample][currentLineIndex] = waveform.Samples[sample].Value;
                 }
+
                 currentLineIndex++;
             }
 

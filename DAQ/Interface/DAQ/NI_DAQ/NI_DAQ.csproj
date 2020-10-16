@@ -117,6 +117,9 @@
     <Compile Include="Camera.xaml.cs">
       <DependentUpon>Camera.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ContAcqDigStartRetrig.xaml.cs">
+      <DependentUpon>ContAcqDigStartRetrig.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DAQCtrl.cs" />
     <Compile Include="FunctionGenerator.cs" />
     <Compile Include="MainWindow.xaml.cs">
@@ -160,6 +163,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="Camera.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ContAcqDigStartRetrig.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

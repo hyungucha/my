@@ -4,3 +4,7 @@ D:\humen\hg\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Release\BaseDAQ.Properties.Resourc
 D:\humen\hg\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Release\BaseDAQ.csproj.GenerateResource.cache
 D:\humen\hg\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Release\BaseDAQ.csproj.CoreCompileInputs.cache
 D:\humen\hg\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Release\BaseDAQ.dll
+D:\DAQC#\DAQ\Interface\DAQ\BaseDAQ\bin\x64\Release\BaseDAQ.dll
+D:\DAQC#\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Release\BaseDAQ.Properties.Resources.resources
+D:\DAQC#\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Release\BaseDAQ.csproj.GenerateResource.cache
+D:\DAQC#\DAQ\Interface\DAQ\BaseDAQ\obj\x64\Release\BaseDAQ.dll

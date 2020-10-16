@@ -30,6 +30,8 @@ namespace NI_DAQ
         private ContGenVoltageWfm _conGentVolWfm;
         private GenDigPulseTrain_Continuous _genDigPulseTrainContinuos;
 
+        
+
         private FunctionGeneratorCtrl _fGeneratorctrl;
 
         private const int ch1 = 1;
@@ -241,6 +243,16 @@ namespace NI_DAQ
             //ParamSetting("2", tbCh2_Frequency.Text, tbCh2_Amplitude.Text, tbCh2_Pulse_w.Text);  //Data설정
 
             FGeneratorctrl.Inst.WriteString("OUTPut2 ON");   //OUT PUT ON
+        }
+
+        private void btnContAcqDigStartRetrig_Click(object sender, RoutedEventArgs e)
+        {
+            ContAcqDigStartRetrig acqDigStartRetrig = new ContAcqDigStartRetrig();
+
+            acqDigStartRetrig.Show();
+
+
+
         }
     }
 }

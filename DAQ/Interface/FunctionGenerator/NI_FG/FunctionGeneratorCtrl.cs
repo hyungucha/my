@@ -51,7 +51,7 @@ namespace NI_FG
         {
 			SetParam();
 
-			Instance.ParamSet(1);
+			//Instance.ParamSet(1);
         }
 
 		public void SetParam()

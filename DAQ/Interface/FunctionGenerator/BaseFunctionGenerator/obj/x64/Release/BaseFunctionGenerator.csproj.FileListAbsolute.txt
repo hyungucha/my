@@ -7,3 +7,10 @@ D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\x64\Releas
 D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\x64\Release\BaseFunctionGenerator.csproj.CoreCompileInputs.cache
 D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\x64\Release\BaseFunctionGenerator.csproj.CopyComplete
 D:\humen\hg\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\x64\Release\BaseFunctionGenerator.dll
+D:\DAQC#\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\bin\x64\Release\BaseFunctionGenerator.dll
+D:\DAQC#\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\bin\x64\Release\Ivi.Visa.dll
+D:\DAQC#\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\bin\x64\Release\Ivi.Visa.xml
+D:\DAQC#\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\x64\Release\BaseFunctionGenerator.Properties.Resources.resources
+D:\DAQC#\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\x64\Release\BaseFunctionGenerator.csproj.GenerateResource.cache
+D:\DAQC#\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\x64\Release\BaseFunctionGenerator.csproj.CopyComplete
+D:\DAQC#\DAQ\Interface\FunctionGenerator\BaseFunctionGenerator\obj\x64\Release\BaseFunctionGenerator.dll

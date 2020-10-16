@@ -2,3 +2,11 @@ D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\x64\Release\NI_FG.csprojAs
 D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\x64\Release\NI_FG.Properties.Resources.resources
 D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\x64\Release\NI_FG.csproj.GenerateResource.cache
 D:\humen\hg\DAQ\Interface\FunctionGenerator\NI_FG\obj\x64\Release\NI_FG.csproj.CoreCompileInputs.cache
+D:\DAQC#\DAQ\Interface\FunctionGenerator\NI_FG\bin\x64\Release\NI_FG.dll
+D:\DAQC#\DAQ\Interface\FunctionGenerator\NI_FG\bin\x64\Release\BaseDAQ.dll
+D:\DAQC#\DAQ\Interface\FunctionGenerator\NI_FG\bin\x64\Release\BaseFunctionGenerator.dll
+D:\DAQC#\DAQ\Interface\FunctionGenerator\NI_FG\obj\x64\Release\NI_FG.csprojAssemblyReference.cache
+D:\DAQC#\DAQ\Interface\FunctionGenerator\NI_FG\obj\x64\Release\NI_FG.Properties.Resources.resources
+D:\DAQC#\DAQ\Interface\FunctionGenerator\NI_FG\obj\x64\Release\NI_FG.csproj.GenerateResource.cache
+D:\DAQC#\DAQ\Interface\FunctionGenerator\NI_FG\obj\x64\Release\NI_FG.csproj.CopyComplete
+D:\DAQC#\DAQ\Interface\FunctionGenerator\NI_FG\obj\x64\Release\NI_FG.dll
