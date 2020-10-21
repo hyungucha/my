@@ -58,9 +58,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Base">
-      <HintPath>..\Base.dll</HintPath>
-    </Reference>
     <Reference Include="Ivi.Visa.Interop, Version=5.5.0.0, Culture=neutral, PublicKeyToken=a128c98f1d7717c1, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>True</EmbedInteropTypes>
@@ -166,6 +163,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Common\Parameters.cs" />
+    <Compile Include="Viewer\ImageViewerTest.xaml.cs">
+      <DependentUpon>ImageViewerTest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\ImageViewerTestViewModel.cs" />
     <Page Include="AcqVoltageInt.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -192,6 +194,10 @@
     <Compile Include="GenVoltageUpdate.xaml.cs">
       <DependentUpon>GenVoltageUpdate.xaml</DependentUpon>
     </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Menu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -208,8 +214,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Viewer\ImageViewerTest.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
     </Compile>
@@ -248,9 +261,29 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Base\Base.csproj">
+      <Project>{2b113baa-3d56-4aad-92f6-2ebe61c77cdd}</Project>
+      <Name>Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\Camera\BaseCamera\BaseCamera.csproj">
+      <Project>{7cfc0d98-4ff6-4a17-b80f-ade5f672161a}</Project>
+      <Name>BaseCamera</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\Camera\Euresys\Euresys.csproj">
+      <Project>{82d665cf-9967-4aac-8a7d-9786b68cc16d}</Project>
+      <Name>Euresys</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\DAQ\BaseDAQ\BaseDAQ.csproj">
+      <Project>{0de853c5-5a0a-4f88-bb73-66758981dab2}</Project>
+      <Name>BaseDAQ</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Interface\DAQ\NI_DAQ\NI_DAQ.csproj">
       <Project>{15ec5868-4f11-49af-987a-6ec5d4dce059}</Project>
       <Name>NI_DAQ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\FunctionGenerator\NI_FG\NI_FG.csproj">
+      <Project>{f93aca97-9295-4d67-a725-df9d68f5d8ef}</Project>
+      <Name>NI_FG</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

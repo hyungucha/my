@@ -77,37 +77,6 @@ namespace NI_DAQ
                     double sampleRate = Convert.ToDouble(edRate.Text);
                     int samplePerChannel = Convert.ToInt32(edchannel.Text);
 
-                    //// Create a new task
-                    //myTask = new ni.Task();
-
-                    //// Create a virtual channel
-                    //myTask.AIChannels.CreateVoltageChannel(physicalChannelComboBox.Text, "",
-                    //    (AITerminalConfiguration)(-1), rangeMinimum,
-                    //    rangeMaximum, AIVoltageUnits.Volts);
-
-                    //// Configure the timing parameters
-                    //myTask.Timing.ConfigureSampleClock("", sampleRate,
-                    //    SampleClockActiveEdge.Rising, SampleQuantityMode.ContinuousSamples, samplePerChannel * 10);
-
-                    //// Configure the Every N Samples Event
-                    //myTask.EveryNSamplesReadEventInterval = samplePerChannel;
-                    //myTask.EveryNSamplesRead += new EveryNSamplesReadEventHandler(myTask_EveryNSamplesRead);
-
-
-                    //// Verify the Task
-                    //myTask.Control(TaskAction.Verify);
-
-                    //// Prepare the table for Data
-                    //InitializeDataTable(myTask.AIChannels, ref dataTable);
-
-                    //runningTask = myTask;
-                    //analogInReader = new AnalogMultiChannelReader(myTask.Stream);
-                    //runningTask.SynchronizeCallbacks = true;
-
-                    //runningTask.Start();
-
-
-
                     // Create a new task
                     ni.Task myTask = new ni.Task();
 
@@ -120,7 +89,7 @@ namespace NI_DAQ
                     myTask.Timing.ConfigureSampleClock("", sampleRate,
                         ni.SampleClockActiveEdge.Rising, ni.SampleQuantityMode.FiniteSamples, samplePerChannel * 10);
 
-                    myTask.Triggers.StartTrigger.ConfigureDigitalEdgeTrigger("/Dev1/PFI12", ni.DigitalEdgeStartTriggerEdge.Rising);
+                    myTask.Triggers.StartTrigger.ConfigureDigitalEdgeTrigger("/Dev1/PFI0", ni.DigitalEdgeStartTriggerEdge.Rising);
 
                     myTask.Triggers.StartTrigger.Retriggerable = true;
 
@@ -140,11 +109,6 @@ namespace NI_DAQ
                     runningTask.SynchronizeCallbacks = true;
 
                     runningTask.Start();
-
-
-
-
-
                 }
                 catch (DaqException exception)
                 {
@@ -184,6 +148,10 @@ namespace NI_DAQ
         private void dataToDataTable(AnalogWaveform<double>[] sourceArray, ref DataTable dataTable)
         {
             // Iterate over channels
+            string textvalue = "";
+
+            
+
             int currentLineIndex = 0;
             foreach (AnalogWaveform<double> waveform in sourceArray)
             {
@@ -193,9 +161,25 @@ namespace NI_DAQ
                         break;
 
                     _profile[sample] = (float)waveform.Samples[sample].Value;
+
+                    //savetest.Items.Add(Convert.ToString(_profile[sample]));
+
+                    textvalue = textvalue + "\t" + Convert.ToString(_profile[sample]) ; 
+
+
+
+
                 }
                 currentLineIndex++;
             }
+
+            string savepath = string.Format("D:/DAQC#/1/{0}test.text", count.Text);
+
+            count.Text = Convert.ToString(Convert.ToInt32(count.Text) + 1);
+
+            System.IO.File.WriteAllText(savepath, textvalue);
+
+            //savetest.Items.Add(Convert.ToString(_profile));
 
             profileChart.SetData(_profile);
         }

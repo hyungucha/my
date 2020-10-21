@@ -1,13 +1,334 @@
-﻿<Window x:Class="DAQ.MainWindow"
+﻿<Window x:Class="NI_DAQ.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DAQ"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="800">
+        xmlns:local="clr-namespace:NI_DAQ"
+        xmlns:scichartwrapper="clr-namespace:SciChartWrapper.Views;assembly=SciChartWrapper"
+        mc:Ignorable="d" ResizeMode="NoResize" WindowState="Maximized"
+        Title="MainWindow" Height="1080" Width="1900">
+
     <Grid>
-        <Frame Source="/Menu.xaml"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <GroupBox x:Name="gbAcqVoltageInt" Grid.ColumnSpan="2" Header="AnalogIn" HorizontalAlignment="Left" Height="500" Margin="10,10,0,0" VerticalAlignment="Top" Width="925">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Content="채널 :" Grid.Row="0" Margin="15" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="146" FontSize="16"/>
+                <Label Content="Min :" Grid.Row="1" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="146" FontSize="16"/>
+                <Label Content="Max :" Grid.Row="2" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="146" FontSize="16"/>
+                <Label Content="Smp/cnl :" Grid.Row="3" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="146" FontSize="16"/>
+                <Label Content="Rate :" Grid.Row="4" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="146" FontSize="16"/>
+                <ComboBox Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" Margin="15"
+                          Height="40" VerticalAlignment="top" Width="150" 
+                          ItemsSource="{Binding Path=AcqVoltageInt_PhysicalChannels}" 
+                          SelectedItem="{Binding Path=AcqVoltageInt_SelectedPhysicalChannel}"/>
+
+                <TextBox x:Name="edMinvalue" Grid.Column="1" HorizontalAlignment="Center" Height="40" Grid.Row="1" 
+                         TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Text="{Binding Path=AcqVoltageInt_RangeMinimum, Mode=TwoWay}" />
+                <TextBox x:Name="edMaxvalue" Grid.Column="1" HorizontalAlignment="Center" Height="40" Grid.Row="2" 
+                         TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Text="{Binding Path=AcqVoltageInt_RangeMaximum, Mode=TwoWay}"/>
+                <TextBox x:Name="edSamplerate" Grid.Column="1" HorizontalAlignment="Center" Height="40" Grid.Row="3" 
+                         TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Text="{Binding Path=AcqVoltageInt_SampleRate, Mode=TwoWay}"/>
+                <TextBox x:Name="SamplesPerCnl" Grid.Column="1" HorizontalAlignment="Center" Height="40" Grid.Row="4" 
+                         TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Text="{Binding Path=AcqVoltageInt_SamplesPerChannel, Mode=TwoWay}"/>
+
+                <Button x:Name="Start" Content="Start" HorizontalAlignment="Center" Height="34"  Grid.Row="4" 
+                        VerticalAlignment="Bottom" Width="366" Grid.ColumnSpan="2" Click="btnStart_Click"/>
+
+                <scichartwrapper:SciChartProfile2DView x:Name="profileChart" Grid.Column="2" Margin="5" 
+                                                       Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="5"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="gbGenVoltageUpdate" Grid.Column="2" Header="Analog out vot" HorizontalAlignment="Left" Height="500" Margin="10,10,0,0" VerticalAlignment="Top" Width="453">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Content="채널" Grid.Row="0" HorizontalAlignment="Center" Height="46" Margin="15" VerticalAlignment="Top" Width="147"/>
+                <Label Content="Min" Grid.Row="1" HorizontalAlignment="Center" Height="46" Margin="15" VerticalAlignment="Top" Width="147"/>
+                <Label Content="Max" Grid.Row="2" HorizontalAlignment="Center" Height="46" Margin="15" VerticalAlignment="Top" Width="147"/>
+                <Label Content="Vot out" Grid.Row="3" HorizontalAlignment="Center" Height="46" Margin="15" VerticalAlignment="Top" Width="147"/>
+                <ComboBox x:Name="GenVoltageUpdate_PhysicalChannels" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" Margin="15"
+                          Height="40" VerticalAlignment="top" Width="150"
+                          ItemsSource="{Binding Path=GenVoltageUpdate_PhysicalChannels}" 
+                          SelectedItem="{Binding Path=GenVoltageUpdate_SelectedPhysicalChannel}"/>
+
+                <TextBox Grid.Column="1" HorizontalAlignment="Center" Height="40" Grid.Row="1" Margin="15"   
+                         TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Text="{Binding Path=GenVoltageUpdate_MinimumValue, Mode=TwoWay}"/>
+                <TextBox Grid.Column="1" HorizontalAlignment="Center" Height="40" Grid.Row="2" Margin="15"
+                         TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Text="{Binding Path=GenVoltageUpdate_MaximumValue, Mode=TwoWay}"/>
+                <TextBox Grid.Column="1" HorizontalAlignment="Center" Height="40" Grid.Row="3" Margin="15"
+                         TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Text="{Binding Path=GenVoltageUpdate_VoltageOutput, Mode=TwoWay}"/>
+                <Button x:Name="aov_Start" Grid.ColumnSpan="2" Content="Start" HorizontalAlignment="Center" Height="35" Margin="15" Grid.Row="3" 
+                        VerticalAlignment="Bottom" Width="336" Click="aov_Start_Click"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="gbConGenVotageWfm" Grid.ColumnSpan="2" Header="Analog out wfm" HorizontalAlignment="Left" Height="505" Margin="11,5,0,0" 
+                  Grid.Row="1" VerticalAlignment="Top" Width="925">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <GroupBox Grid.ColumnSpan="2" Grid.RowSpan="3" Grid.Row="0" Header="Channel Parameters" HorizontalAlignment="Center" 
+                          Height="150" Margin="0" VerticalAlignment="Top" Width="430">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Label Content="채널 :" Grid.Row="0" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="168"/>
+                        <Label Content="Min :" Grid.Row="1" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="168"/>
+                        <Label Content="Max :" Grid.Row="2" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="168"/>
+                        <TextBox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Height="25" TextWrapping="Wrap" 
+                                 VerticalAlignment="Center" Width="156" Text="{Binding Path=ConGenVotageWfm_Minimum, Mode=TwoWay}"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Height="25" TextWrapping="Wrap" 
+                                 VerticalAlignment="Center" Width="156" Text="{Binding Path=ConGenVotageWfm_Maximum, Mode=TwoWay}"/>
+
+                        <ComboBox x:Name="ConGenVotageWfm_physicalChannels" Grid.Column="1" HorizontalAlignment="Center" Height="25" 
+                                  VerticalAlignment="Center" Width="156"
+                                  ItemsSource="{Binding Path=ConGenVotageWfm_physicalChannels}" 
+                                  SelectedItem="{Binding Path=ConGenVotageWfm_selectedPhysicalChannel}"/>
+                    </Grid>
+
+                </GroupBox>
+                <GroupBox Grid.ColumnSpan="2" Grid.RowSpan="1" Grid.Row="2" Header="Timing Parameters" HorizontalAlignment="Center" Height="45" VerticalAlignment="Center" Width="430">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Frequency (Hz): :" Grid.Row="0" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" VerticalAlignment="Center" Width="168"/>
+                        <TextBox Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" Height="20" 
+                                 TextWrapping="Wrap" VerticalAlignment="Center" Width="156" Text="{Binding Path=ConGenVotageWfm_Frequency, Mode=TwoWay}"/>
+
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox Grid.ColumnSpan="2" Grid.RowSpan="3" Grid.Row="3" Header="Function Generator Parameters" HorizontalAlignment="Center" Height="210" Margin="-10" VerticalAlignment="Top" Width="430">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Label Content="Wave Type :" Grid.Row="0" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" VerticalAlignment="Center" Width="168"/>
+                        <Label Content="Cycle Buffer :" Grid.Row="1" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" VerticalAlignment="Center" Width="168"/>
+                        <Label Content="Sample Buffer :" Grid.Row="2" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" VerticalAlignment="Center" Width="168"/>
+                        <Label Content="Amplitude :" Grid.Row="3" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" VerticalAlignment="Center" Width="168"/>
+                        <ComboBox x:Name="ConGenVotageWfm_signalType" Grid.Column="1" HorizontalAlignment="Center" Height="25" 
+                                  VerticalAlignment="Center" Width="156"
+                                  ItemsSource="{Binding Path=ConGenVotageWfm_signalType}" 
+                                  SelectedItem="{Binding Path=ConGenVotageWfm_selectedSignalType}"/>
+
+                        <TextBox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Height="25" 
+                                 TextWrapping="Wrap" VerticalAlignment="Center" Width="156" Text="{Binding Path=ConGenVotageWfm_CyclesPerBuffer, Mode=TwoWay}"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Height="25" 
+                                 TextWrapping="Wrap" VerticalAlignment="Center" Width="156" Text="{Binding Path=ConGenVotageWfm_SamplesPerBuffer, Mode=TwoWay}"/>
+                        <TextBox Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" Height="25" 
+                                 TextWrapping="Wrap" VerticalAlignment="Center" Width="156" Text="{Binding Path=ConGenVotageWfm_Amplitude, Mode=TwoWay}"/>
+                    </Grid>
+                </GroupBox>
+                <Button x:Name="btnConGenVotageWfm_Start" Content="Start" HorizontalAlignment="Center" Height="35" Margin="5" Grid.Row="6" VerticalAlignment="Center" Width="180" Click="btnConGenVotageWfm_Start_Click"/>
+                <Button x:Name="btnConGenVotageWfm_Stop" Content="Stop" Grid.Column="1" HorizontalAlignment="Center" Height="35" Margin="5" Grid.Row="6" VerticalAlignment="Center" Width="180" Click="btnConGenVotageWfm_Stop_Click"/>
+
+                <scichartwrapper:SciChartProfile2DView x:Name="conGenvotageWfmChart"
+                                                       Grid.RowSpan="7"
+                                                       Grid.Column="2"
+                                                       Grid.ColumnSpan="2"
+                                                       Margin="10"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Grid.Column="3" Header="Counter" HorizontalAlignment="Left" 
+                  Height="500" Margin="10,10,0,0" VerticalAlignment="Top" Width="453">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <GroupBox Grid.ColumnSpan="2" Grid.Row="3" Header="Idle State:" HorizontalAlignment="Center" 
+                          Height="100" Grid.RowSpan="5" VerticalAlignment="Top" Width="410">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <RadioButton x:Name="btnCheckdLow" Content="Low" HorizontalAlignment="Center" Height="24"
+                                     VerticalAlignment="Center" Width="118" Margin="15" Checked="btnCheckdLow_Checked"/>
+                        <RadioButton x:Name="btnCheckdhigh" Content="high" Grid.Column="1" HorizontalAlignment="Center" 
+                                     Height="24" VerticalAlignment="Center" Width="118" Margin="15" Checked="btnCheckdhigh_Checked"/>
+                    </Grid>
+                </GroupBox>
+                <ComboBox Grid.Column="1" HorizontalAlignment="Center" ItemsSource="{Binding Path=GenDigPulseTrainContinuous_physicalChannels, Mode=TwoWay}" 
+                          SelectedItem="{Binding Path=GenDigPulseTrainContinuous_selectedPhysicalChannel, Mode=TwoWay}" 
+                          Height="40" VerticalAlignment="center" Width="150"/>
+
+                <Label Content="Counter(s):" Grid.Row="0" HorizontalAlignment="Center" Height="28" VerticalAlignment="Center" Width="144"/>
+                <Label Content="Frequency (Hz):" Grid.Row="1" HorizontalAlignment="Center" Height="28" VerticalAlignment="Center" Width="144"/>
+                <Label Content="Duty Cycle:" Grid.Row="2" HorizontalAlignment="Center" Height="28" VerticalAlignment="center" Width="144"/>
+
+                <TextBox Grid.Column="1" HorizontalAlignment="Center" Height="40" Grid.Row="1" TextWrapping="Wrap" 
+                         VerticalAlignment="Center" Width="130" Text="{Binding Path=GenDigPulseTrainContinuous_Frequency, Mode=TwoWay}"/>
+                <TextBox Grid.Column="1" HorizontalAlignment="Center" Height="40" Grid.Row="2" TextWrapping="Wrap" 
+                         VerticalAlignment="Center" Width="130" Text="{Binding Path=GenDigPulseTrainContinuousDuty_Cycle, Mode=TwoWay}"/>
+
+                <Button x:Name="btnGenDigPulseTrainContinuousStart" Content="Start" Grid.Column="0" HorizontalAlignment="Center" Height="41" Grid.Row="4" VerticalAlignment="Center" Width="155" Click="btnGenDigPulseTrainContinuousStart_Click"/>
+                <Button x:Name="btnGenDigPulseTrainContinuousStop" Content="Stop" Grid.Column="1" HorizontalAlignment="Center" Height="41" Grid.Row="4" VerticalAlignment="Center" Width="155" Click="btnGenDigPulseTrainContinuousStop_Click"/>
+
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="gbFunctionGenerator" Grid.ColumnSpan="2" Grid.Column="2" Header="Fuction Generator" HorizontalAlignment="Left" Height="505" 
+                  Margin="11,5,0,0" Grid.Row="1" VerticalAlignment="Top" Width="925">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <GroupBox Grid.ColumnSpan="2" Header="CH1" HorizontalAlignment="Center" Height="320" 
+                          Grid.RowSpan="5" VerticalAlignment="Top" Width="440">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Label Content="Frequency :" Grid.Row="0" HorizontalAlignment="Center" Height="40" VerticalAlignment="Center" Width="146"/>
+                        <Label Content="Amplitude :" Grid.Row="1" HorizontalAlignment="Center" Height="40" VerticalAlignment="Center" Width="146"/>
+                        <Label Content="Pulse Width :" Grid.Row="2" HorizontalAlignment="Center" Height="40" VerticalAlignment="Center" Width="146"/>
+                        <TextBox Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" Height="40" TextWrapping="Wrap" 
+                                 VerticalAlignment="Center" Width="130" Text="{Binding Path=FunctionGenerator_Ch1Frequency, Mode=TwoWay}"/>
+                        <TextBox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Height="40" TextWrapping="Wrap" 
+                                 VerticalAlignment="Center" Width="130" Text="{Binding Path=FunctionGenerator_Ch1Amplitude, Mode=TwoWay}"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Height="40" TextWrapping="Wrap" 
+                                 VerticalAlignment="Center" Width="130" Text="{Binding Path=FunctionGenerator_Ch1PulseWidth, Mode=TwoWay}"/>
+                        <Button x:Name="ch1SetData" Content="Set Data" Grid.Column="1" HorizontalAlignment="Center" 
+                                Height="40" Grid.Row="3" VerticalAlignment="Center" Width="130" Click="ch1SetData_Click"/>
+                    </Grid>
+                </GroupBox>
+                <GroupBox Grid.Column="2" Grid.ColumnSpan="2" Header="CH2" HorizontalAlignment="Center" Height="320" 
+                          Grid.RowSpan="5" VerticalAlignment="Top" Width="440">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Label Content="Frequency :" Grid.Row="0" HorizontalAlignment="Center" Height="40" VerticalAlignment="Center" Width="146"/>
+                        <Label Content="Amplitude :" Grid.Row="1" HorizontalAlignment="Center" Height="40" VerticalAlignment="Center" Width="146"/>
+                        <Label Content="Pulse Width :" Grid.Row="2" HorizontalAlignment="Center" Height="40" VerticalAlignment="Center" Width="146"/>
+                        <TextBox Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" Height="40" TextWrapping="Wrap" 
+                                 VerticalAlignment="Center" Width="130" Text="{Binding Path=FunctionGenerator_Ch2Frequency, Mode=TwoWay}"/>
+                        <TextBox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Height="40" TextWrapping="Wrap" 
+                                 VerticalAlignment="Center" Width="130" Text="{Binding Path=FunctionGenerator_Ch2Amplitude, Mode=TwoWay}"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Height="40" TextWrapping="Wrap" 
+                                 VerticalAlignment="Center" Width="130" Text="{Binding Path=FunctionGenerator_Ch2PulseWidth, Mode=TwoWay}"/>
+                        <Button x:Name="ch2SetData" Content="Set Data" Grid.Column="1" HorizontalAlignment="Center" Height="40" Grid.Row="3" VerticalAlignment="Center" Width="130" Click="ch2SetData_Click"/>
+                    </Grid>
+                </GroupBox>
+
+                <GroupBox Grid.ColumnSpan="3" Grid.RowSpan="2" Header="Setting" HorizontalAlignment="Left" 
+                          Height="100" Margin="20" Grid.Row="4" VerticalAlignment="Center" Width="550">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="tbIP_Address" Text="TCPIP0::169.254.5.21::inst0::INSTR" Grid.ColumnSpan="3" 
+                                 HorizontalAlignment="Left" Margin="10" Height="40" TextWrapping="Wrap" VerticalAlignment="Center" Width="320"/>
+                        <Button x:Name="btnFunctionGeneratorConnect" Content="Connect" Grid.Column="3" HorizontalAlignment="Left" Height="30" VerticalAlignment="Center" Width="110" Click="btnFunctionGeneratorConnect_Click"/>
+                    </Grid>
+                </GroupBox>
+                <Button x:Name="btnFunctionGeneratorStart" Grid.ColumnSpan="2" Content="Start" Grid.Column="2" HorizontalAlignment="Left" Height="40" 
+                        Grid.Row="4" VerticalAlignment="Top" Width="136" Margin="145,28,0,0"/>
+                <Button x:Name="btnFunctionGeneratorReset" Content="Reset" Grid.Column="3" HorizontalAlignment="Center" Height="40" 
+                        Grid.Row="4" VerticalAlignment="Top" Width="134" Margin="77,28,17,0" Click="btnFunctionGeneratorReset_Click"/>
+
+                <Button x:Name="btnContAcqDigStartRetrig" Content="AcqRetrig" Grid.Column="3" HorizontalAlignment="Center" Height="40" 
+                        Grid.Row="5" VerticalAlignment="Top" Width="134" Margin="60,20,0,0" Click="btnContAcqDigStartRetrig_Click"/>
+
+                <Button x:Name="btnShowViewer" Content="Viewer" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" Height="40" 
+                        Grid.Row="5" VerticalAlignment="Top" Width="134" Margin="-30,20,0,0" Click="btnShowViewer_Click"/>
+
+            </Grid>
+        </GroupBox>
 
     </Grid>
 </Window>
