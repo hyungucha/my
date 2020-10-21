@@ -643,7 +643,7 @@ namespace NI_DAQ
     {
         #region Private Member Variables
 
-        ni.Task _genDigPulseTrainContinuousTask;
+        private ni.Task _genDigPulseTrainContinuousTask; 
 
         private ObservableCollection<string> _genDigPulseTrainContinuous_physicalChannels;
         private string _genDigPulseTrainContinuous_selectedPhysicalChannel;
@@ -665,9 +665,10 @@ namespace NI_DAQ
 
             GenDigPulseTrainContinuous_physicalChannels = new ObservableCollection<string>();
 
-            foreach (string channel in ni.DaqSystem.Local.GetPhysicalChannels(ni.PhysicalChannelTypes.AI, ni.PhysicalChannelAccess.External))
+            foreach ( string channel in ni.DaqSystem.Local.GetPhysicalChannels( ni.PhysicalChannelTypes.AI, ni.PhysicalChannelAccess.External ) )
             {
-                GenDigPulseTrainContinuous_physicalChannels.Add(channel);
+                GenDigPulseTrainContinuous_physicalChannels.Add( channel );
+            //GenDigPulseTrainContinuous_physicalChannels.Add("Dev1/PFI12");
             }
 
             if (GenDigPulseTrainContinuous_physicalChannels.Count > 0)
@@ -749,10 +750,17 @@ namespace NI_DAQ
         {
             try
             {
-                _genDigPulseTrainContinuousTask.COChannels.CreatePulseChannelFrequency(GenDigPulseTrainContinuous_selectedPhysicalChannel,
-                    "ContinuousPulseTrain", ni.COPulseFrequencyUnits.Hertz, IdleState, 0.0,
-                    GenDigPulseTrainContinuous_Frequency,
-                    GenDigPulseTrainContinuousDuty_Cycle);
+                _genDigPulseTrainContinuousTask = new ni.Task();
+
+                //_genDigPulseTrainContinuousTask.COChannels.CreatePulseChannelFrequency(GenDigPulseTrainContinuous_selectedPhysicalChannel,
+                //    "ContinuousPulseTrain", ni.COPulseFrequencyUnits.Hertz, IdleState, 0.0,
+                //    GenDigPulseTrainContinuous_Frequency,
+                //    GenDigPulseTrainContinuousDuty_Cycle);
+
+                _genDigPulseTrainContinuousTask.COChannels.CreatePulseChannelFrequency( "Dev4/ctr0",
+                     "ContinuousPulseTrain", ni.COPulseFrequencyUnits.Hertz, IdleState, 0.0,
+                     GenDigPulseTrainContinuous_Frequency,
+                     GenDigPulseTrainContinuousDuty_Cycle );
 
                 _genDigPulseTrainContinuousTask.Timing.ConfigureImplicit(ni.SampleQuantityMode.ContinuousSamples, 1000);
 

@@ -188,7 +188,7 @@
                                                        Margin="10"/>
             </Grid>
         </GroupBox>
-        <GroupBox Grid.Column="3" Header="Counter" HorizontalAlignment="Left" 
+        <GroupBox x:Name="gbGenDigPulseContinuous" Grid.Column="3" Header="Counter" HorizontalAlignment="Left" 
                   Height="500" Margin="10,10,0,0" VerticalAlignment="Top" Width="453">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -217,7 +217,7 @@
                 </GroupBox>
                 <ComboBox Grid.Column="1" HorizontalAlignment="Center" ItemsSource="{Binding Path=GenDigPulseTrainContinuous_physicalChannels, Mode=TwoWay}" 
                           SelectedItem="{Binding Path=GenDigPulseTrainContinuous_selectedPhysicalChannel, Mode=TwoWay}" 
-                          Height="40" VerticalAlignment="center" Width="150"/>
+                          Height="40" VerticalAlignment="center" Width="150" />
 
                 <Label Content="Counter(s):" Grid.Row="0" HorizontalAlignment="Center" Height="28" VerticalAlignment="Center" Width="144"/>
                 <Label Content="Frequency (Hz):" Grid.Row="1" HorizontalAlignment="Center" Height="28" VerticalAlignment="Center" Width="144"/>

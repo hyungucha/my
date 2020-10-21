@@ -57,12 +57,16 @@ namespace NI_DAQ
             // Analog out wfm
             ConGentVolWfm = new ContGenVoltageWfm();
             ConGentVolWfm.ConGenVotageWfmChart = conGenvotageWfmChart;
+
+            GenDigPulseTrainContinuos = new GenDigPulseTrain_Continuous();
+
             // Function Generator
             FGeneratorctrl = new FunctionGeneratorCtrl();
 
             this.gbAcqVoltageInt.DataContext = AcqVolt;
             this.gbGenVoltageUpdate.DataContext = GenVolUp;
             this.gbConGenVotageWfm.DataContext = ConGentVolWfm;
+            this.gbGenDigPulseContinuous.DataContext = GenDigPulseTrainContinuos;
             this.gbFunctionGenerator.DataContext = FGeneratorctrl;
         }
 

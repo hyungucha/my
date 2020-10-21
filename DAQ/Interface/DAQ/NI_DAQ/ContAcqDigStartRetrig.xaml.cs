@@ -77,6 +77,37 @@ namespace NI_DAQ
                     double sampleRate = Convert.ToDouble(edRate.Text);
                     int samplePerChannel = Convert.ToInt32(edchannel.Text);
 
+                    //// Create a new task
+                    //myTask = new ni.Task();
+
+                    //// Create a virtual channel
+                    //myTask.AIChannels.CreateVoltageChannel(physicalChannelComboBox.Text, "",
+                    //    (AITerminalConfiguration)(-1), rangeMinimum,
+                    //    rangeMaximum, AIVoltageUnits.Volts);
+
+                    //// Configure the timing parameters
+                    //myTask.Timing.ConfigureSampleClock("", sampleRate,
+                    //    SampleClockActiveEdge.Rising, SampleQuantityMode.ContinuousSamples, samplePerChannel * 10);
+
+                    //// Configure the Every N Samples Event
+                    //myTask.EveryNSamplesReadEventInterval = samplePerChannel;
+                    //myTask.EveryNSamplesRead += new EveryNSamplesReadEventHandler(myTask_EveryNSamplesRead);
+
+
+                    //// Verify the Task
+                    //myTask.Control(TaskAction.Verify);
+
+                    //// Prepare the table for Data
+                    //InitializeDataTable(myTask.AIChannels, ref dataTable);
+
+                    //runningTask = myTask;
+                    //analogInReader = new AnalogMultiChannelReader(myTask.Stream);
+                    //runningTask.SynchronizeCallbacks = true;
+
+                    //runningTask.Start();
+
+
+
                     // Create a new task
                     ni.Task myTask = new ni.Task();
 
@@ -89,7 +120,7 @@ namespace NI_DAQ
                     myTask.Timing.ConfigureSampleClock("", sampleRate,
                         ni.SampleClockActiveEdge.Rising, ni.SampleQuantityMode.FiniteSamples, samplePerChannel * 10);
 
-                    myTask.Triggers.StartTrigger.ConfigureDigitalEdgeTrigger("/Dev1/PFI0", ni.DigitalEdgeStartTriggerEdge.Rising);
+                    myTask.Triggers.StartTrigger.ConfigureDigitalEdgeTrigger("/Dev4/PFI12", ni.DigitalEdgeStartTriggerEdge.Rising);
 
                     myTask.Triggers.StartTrigger.Retriggerable = true;
 
@@ -109,6 +140,11 @@ namespace NI_DAQ
                     runningTask.SynchronizeCallbacks = true;
 
                     runningTask.Start();
+
+
+
+
+
                 }
                 catch (DaqException exception)
                 {
